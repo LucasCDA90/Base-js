@@ -20,7 +20,7 @@ console.log(rectangle.diagonale)                                                
 rectangle.diagonale = Math.sqrt(rectangle.diagonale)                                            //Calcul de la diagonale
 console.log(rectangle.diagonale)                                                                //Affichage de la diagonale
 
-rectangle.diagonale = rectangle.diagonale.toFixed(2)                                            //Arrondi 2 chiffres apres la virgule
+rectangle.diagonale = Number(rectangle.diagonale.toFixed(2))                                    //Arrondi 2 chiffres apres la virgule
 console.log(rectangle.diagonale)                                                                //Affichage du résultat
 
 console.log("\nX :", rectangle.X, rectangle.unite)                                             //Affichage du X
