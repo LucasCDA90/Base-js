@@ -23,8 +23,8 @@ console.log(rectangle.diagonale)                                                
 rectangle.diagonale = Number(rectangle.diagonale.toFixed(2))                                    //Arrondi 2 chiffres apres la virgule
 console.log(rectangle.diagonale)                                                                //Affichage du résultat
 
-console.log("\nX :", rectangle.X, rectangle.unite)                                             //Affichage du X
-console.log("Y :", rectangle.Y, rectangle.unite)                                               //Affichage du Y
-console.log("Perimetre :", rectangle.perimetre, rectangle.unite)                               //Affichage du perimetre
-console.log("Aire :", rectangle.area, rectangle.unite, "2")                                    //Affichage de l'aire
-console.log("Diagonale :", rectangle.diagonale, rectangle.unite)                               //Affichage de la diagonale
+console.log("\nX :", rectangle.X, rectangle.unite)                                              //Affichage du X
+console.log("Y :", rectangle.Y, rectangle.unite)                                                //Affichage du Y
+console.log("Perimetre :", rectangle.perimetre, rectangle.unite)                                //Affichage du perimetre
+console.log("Aire :", rectangle.area, rectangle.unite, "2")                                     //Affichage de l'aire
+console.log("Diagonale :", rectangle.diagonale, rectangle.unite)                                //Affichage de la diagonale
