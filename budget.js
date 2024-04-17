@@ -45,10 +45,11 @@ var wallet =
 min = 713251378
 max = 1713251378
 
-for (var i=0; i<1000; i++) {
+for (var i=0; i<1000; i++) 
 
+{
     var object_type = data [ Math.round( Math.random()* ((data.length-1) - 0) +0) ]                                                      //Nombre aléatoire entre 0 et la taille du tableau
-    var object_description = object_type.description [Math.round(Math.random()* ((object_type.description.length - 1) - 0) + 0)]         //Selectionne une description en fonction du type sorti aléatoirement
+    var object_description = object_type.description [Math.round(Math.random()* ((object_type.description.length - 1) - 0) + 0)]         //Selectionne une description en fonction du type (object_type) sorti aléatoirement
 
     wallet.depenses.push({
         date: Math.round(Math.random()*(max - min) + min),
