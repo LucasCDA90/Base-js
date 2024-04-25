@@ -1,3 +1,5 @@
+const _ = require('lodash')
+
 var tab_element = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "V", "D", "R"]
 
 var type = ["CA", "C", "P", "T"]
@@ -56,3 +58,7 @@ return obj
 })
 
 console.log(pile_card)
+
+pile_card = _.shuffle(pile_card)
+console.log(pile_card)
+
